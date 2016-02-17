@@ -1,9 +1,9 @@
 Repo-diff
 =========
 
-Create a list of packages in a Linux repository
+Create a list of packages in a Linux repository.
 
-* Example:
+* Usage:
 
 ```
 usage: repo_diff.py [-h] [--repo REPO] [--comp COMP]
@@ -18,3 +18,17 @@ optional arguments:
 
 
 ```
+* Run
+
+```
+python repo_diff.py --repo http://archive.ubuntu.com/ubuntu/pool --comp main,universe,restricted
+```
+
+* Output
+
+```
+less repo_list
+```
+
+Tested with:
+* archive.ubuntu.com
