@@ -4,7 +4,8 @@ Repo-diff
 Create a list of packages in a Linux repository
 
 * Example:
-'''
+
+```
 usage: repo_diff.py [-h] [--repo REPO] [--comp COMP]
 
 Save a text copy of packages in a repo
@@ -16,4 +17,4 @@ optional arguments:
   --comp COMP  Provide the comp name Example: main,universe Default:main
 
 
-'''
+```
