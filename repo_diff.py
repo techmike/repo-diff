@@ -1,6 +1,7 @@
 import urllib2
 import argparse
 import urlparse
+import datetime
 from os.path import basename
 from bs4 import BeautifulSoup
 
@@ -12,6 +13,13 @@ class RepoDiff(object):
         self.temp_url = None
         self.url_list = []
         self.url_list_stage = []
+
+    def get_date(self):
+        """
+        Return packages list
+        :return:
+        """
+	pass
 
     def set_repo_url(self, url):
         """
