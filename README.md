@@ -3,6 +3,16 @@ Repo-diff
 
 Create a list of packages in a Linux repository.
 
+* Prerequisite:
+
+```
+apt-get install libxml2-dev
+apt-get install libxslt1-dev
+#apt-get install zlib1g-dev
+apt-get install  lib32z1-dev
+pip install -r requirements
+```
+
 * Usage:
 
 ```
